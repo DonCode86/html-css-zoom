@@ -166,3 +166,10 @@ a {
     top: 8px;
     height: 10px;
 }
+
+.ppl-number {
+    position: absolute;
+    top: 5px;
+    right: 35px;
+    font-size: 12px;
+}
