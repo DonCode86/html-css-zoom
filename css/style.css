@@ -4,7 +4,7 @@
 * {
     padding: 0;
     box-sizing: border-box;
-    /* background-color: black; */
+    background-color: black;
 }
 
 body {
@@ -17,16 +17,13 @@ body {
 button {
     border: none;
     cursor: pointer;
-}
-
-.btn {
-    height: 5vh; 
-    width: 3vw;   
+    color: #fff;
 }
 
 .btn-rec {
     width: 10vw;
 }
+
 
 /*------------------
     HEADER
@@ -40,21 +37,29 @@ button {
 .left-header, .righ-header {
     width: 50%;
     display: flex;
+    column-gap: 5px;
 }
 
 .fa-circle-check {
     color: #67d669;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 15px;
 }
 
-.fa-circle {
-    font-size: 10px;
+.fa-solid {
+    padding: 5px;
+}
+
+.fa-record-vinyl {
+    color:red;
+}
+/* .fa-circle {
+    font-size: 5px;
     color: red;
     border: 5px solid lightgrey;
     border-radius: 50%;
-    line-height: 10px;
-}
+    line-height: 5px;
+    text-align: center;
+} */
 
 /*------------------
     MAIN
