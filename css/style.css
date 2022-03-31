@@ -2,6 +2,7 @@
     RESET
 ------------------*/
 * {
+    margin-top: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: black;
@@ -34,10 +35,15 @@ button {
     height: 5vh;
 }
 
-.left-header, .righ-header {
+.left-header, .right-header {
     width: 50%;
     display: flex;
     column-gap: 5px;
+    padding: 0 8px;
+}
+
+.right-header {
+    justify-content: end;
 }
 
 .fa-circle-check {
@@ -52,6 +58,7 @@ button {
 .fa-record-vinyl {
     color:red;
 }
+
 /* .fa-circle {
     font-size: 5px;
     color: red;
