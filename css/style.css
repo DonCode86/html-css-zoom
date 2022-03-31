@@ -32,8 +32,8 @@ button {
 .header {
     display: flex;
     justify-content: space-between;
-    height: 5vh;
-    margin-bottom: 15px;
+    height: 3vh;
+    margin-bottom: 35px;
 }
 
 .left-header, .right-header {
@@ -49,7 +49,7 @@ button {
 
 .fa-circle-check {
     color: #67d669;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .fa-solid {
@@ -78,11 +78,11 @@ button {
 ------------------*/
 .webcam-section {
     margin: auto;
-    width: 95%;
+    width: 90%;
 }
 
 .webcam-row {
-    height: 14vh;
+    height: 13vh;
     display: flex;
     column-gap: 8px;
     margin-bottom: 8px;
@@ -94,7 +94,6 @@ button {
     border-radius: 5px;
     background-image: url('../img/women-face-portrait-gray-eyes-wallpaper-preview.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
 }
 /*------------------
     FOOTER
