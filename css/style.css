@@ -89,7 +89,7 @@ button {
 }
 
 .img {
-    width: calc(98% / 6);
+    width: calc(100% / 6);
     border: 1px solid #fff;
     border-radius: 5px;
 }
