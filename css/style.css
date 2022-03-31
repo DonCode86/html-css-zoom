@@ -153,6 +153,7 @@ a {
     padding: 0 20px;
     text-decoration: none;
     color: inherit;
+    position: relative;
 }
 
 .input-device, .end-call {
@@ -174,4 +175,10 @@ a {
 
 .green {
     color: #67d669;
+}
+
+.arrow-up {
+    position: absolute;
+    top: 8px;
+    height: 10px;
 }
