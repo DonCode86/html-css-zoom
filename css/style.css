@@ -79,8 +79,17 @@ button {
 .webcam-section {
     margin: auto;
     width: 95%;
-    height: 80vh;
-    background-color: red;
+}
+
+.webcam-row {
+    height: 13vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img {
+     width: calc(100% / 6);
+     border: 1px solid #fff;
 }
 /*------------------
     FOOTER
