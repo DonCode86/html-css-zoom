@@ -84,12 +84,14 @@ button {
 .webcam-row {
     height: 13vh;
     display: flex;
-    flex-wrap: wrap;
+    column-gap: 10px;
+    margin-bottom: 10px;
 }
 
 .img {
-     width: calc(100% / 6);
-     border: 1px solid #fff;
+    width: calc(98% / 6);
+    border: 1px solid #fff;
+    border-radius: 5px;
 }
 /*------------------
     FOOTER
