@@ -79,6 +79,7 @@ button {
 .webcam-section {
     margin: auto;
     width: 90%;
+    height: 85vh;
 }
 
 .webcam-row {
@@ -93,6 +94,7 @@ button {
     border-radius: 5px;
     background-image: url('../img/women-face-portrait-gray-eyes-wallpaper-preview.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
 }
 
@@ -118,3 +120,11 @@ button {
 /*------------------
     FOOTER
 ------------------*/
+
+.toolbar {
+    height: 7vh;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 10px;
+}
