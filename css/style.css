@@ -67,22 +67,10 @@ button {
     color:red;
 }
 
-/* SIMBOLO REC ALTERNATIVO */
-
-/* .fa-circle {
-    font-size: 5px;
-    color: red;
-    border: 5px solid lightgrey;
-    border-radius: 50%;
-    line-height: 5px;
-    text-align: center;
-} */
-
-/* /SIMBOLO REC ALTERNATIVO */
-
 /*------------------
     MAIN
 ------------------*/
+
 .webcam-section {
     margin: auto;
     width: 90%;
@@ -154,10 +142,6 @@ a {
     text-decoration: none;
     color: inherit;
     position: relative;
-}
-
-.input-device, .end-call {
-    width: 20%;
 }
 
 .fa-microphone, .fa-video {
