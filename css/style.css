@@ -93,7 +93,26 @@ button {
     border-radius: 5px;
     background-image: url('../img/women-face-portrait-gray-eyes-wallpaper-preview.jpg');
     background-size: cover;
+    position: relative;
 }
+
+.fa-microphone-slash {
+    color: red;
+    background-color: #2e2c28;
+}
+
+.name-display {
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    border-radius: 5px;
+    background-color: #2e2c28;
+}
+
+.name {
+    background-color: #2e2c28;
+}
+
 /*------------------
     FOOTER
 ------------------*/
