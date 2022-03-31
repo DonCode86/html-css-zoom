@@ -1,0 +1,65 @@
+/*------------------
+    RESET
+------------------*/
+* {
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+body {
+    /* background-color: black; */
+    color: #fff;
+}
+/*------------------
+    BUTTONS
+------------------*/
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    height: 5vh; 
+    width: 3vw;   
+}
+
+.btn-rec {
+    width: 10vw;
+}
+
+/*------------------
+    HEADER
+------------------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.left-header, .righ-header {
+    width: 50%;
+    display: flex;
+}
+
+.fa-circle-check {
+    color: #67d669;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.fa-circle {
+    font-size: 10px;
+    color: red;
+    border: 5px solid lightgrey;
+    border-radius: 50%;
+    line-height: 10px;
+}
+
+/*------------------
+    MAIN
+------------------*/
+
+/*------------------
+    FOOTER
+------------------*/
