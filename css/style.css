@@ -70,29 +70,43 @@ button {
 /*------------------
     MAIN
 ------------------*/
+main {
+    height: calc(100vh - 140px);
+}
 
 .webcam-section {
     margin: auto;
-    width: 90%;
-    height: 85vh;
-}
-
-.webcam-row {
-    height: 13vh;
+    height: 800px;
     display: flex;
-    column-gap: 8px;
-    margin-bottom: 8px;
+    flex-wrap: wrap;
+    overflow-y: auto;
 }
 
 .img {
-    width: calc(100% / 6);
+    width: calc(100% / 6 - 10px);
+    margin: 5px;
     border-radius: 5px;
-    background-image: url('../img/women-face-portrait-gray-eyes-wallpaper-preview.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
 }
 
+.img::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+}
+
+.img-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('../img/women-face-portrait-gray-eyes-wallpaper-preview.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+
+}
 .fa-microphone-slash {
     color: red;
     background-color: #2e2c28;
